@@ -1,0 +1,16 @@
+D:\Work\Playground\sonarqube\MMM\MMM.Attributes\bin\Debug\netstandard2.0\MMM.Attributes.deps.json
+D:\Work\Playground\sonarqube\MMM\MMM.Attributes\bin\Debug\netstandard2.0\MMM.Attributes.dll
+D:\Work\Playground\sonarqube\MMM\MMM.Attributes\obj\Debug\netstandard2.0\MMM.Attributes.csproj.AssemblyReference.cache
+D:\Work\Playground\sonarqube\MMM\MMM.Attributes\obj\Debug\netstandard2.0\MMM.Attributes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Playground\sonarqube\MMM\MMM.Attributes\obj\Debug\netstandard2.0\MMM.Attributes.AssemblyInfoInputs.cache
+D:\Work\Playground\sonarqube\MMM\MMM.Attributes\obj\Debug\netstandard2.0\MMM.Attributes.AssemblyInfo.cs
+D:\Work\Playground\sonarqube\MMM\MMM.Attributes\obj\Debug\netstandard2.0\MMM.Attributes.csproj.CoreCompileInputs.cache
+D:\Work\Playground\sonarqube\MMM\MMM.Attributes\obj\Debug\netstandard2.0\MMM.Attributes.dll
+D:\Work\iNUPCO\Repos\SonarQubeCustomRules\Backend\MMM\MMM.Attributes\bin\Debug\netstandard2.0\MMM.Attributes.deps.json
+D:\Work\iNUPCO\Repos\SonarQubeCustomRules\Backend\MMM\MMM.Attributes\bin\Debug\netstandard2.0\MMM.Attributes.dll
+D:\Work\iNUPCO\Repos\SonarQubeCustomRules\Backend\MMM\MMM.Attributes\obj\Debug\netstandard2.0\MMM.Attributes.csproj.AssemblyReference.cache
+D:\Work\iNUPCO\Repos\SonarQubeCustomRules\Backend\MMM\MMM.Attributes\obj\Debug\netstandard2.0\MMM.Attributes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\iNUPCO\Repos\SonarQubeCustomRules\Backend\MMM\MMM.Attributes\obj\Debug\netstandard2.0\MMM.Attributes.AssemblyInfoInputs.cache
+D:\Work\iNUPCO\Repos\SonarQubeCustomRules\Backend\MMM\MMM.Attributes\obj\Debug\netstandard2.0\MMM.Attributes.AssemblyInfo.cs
+D:\Work\iNUPCO\Repos\SonarQubeCustomRules\Backend\MMM\MMM.Attributes\obj\Debug\netstandard2.0\MMM.Attributes.csproj.CoreCompileInputs.cache
+D:\Work\iNUPCO\Repos\SonarQubeCustomRules\Backend\MMM\MMM.Attributes\obj\Debug\netstandard2.0\MMM.Attributes.dll

@@ -1,0 +1,12 @@
+D:\Work\Playground\sonarqube\MMM\MMM.Analyzers\MMM.Analyzers\bin\Debug\netstandard2.0\MMM.Analyzers.deps.json
+D:\Work\Playground\sonarqube\MMM\MMM.Analyzers\MMM.Analyzers\bin\Debug\netstandard2.0\MMM.Analyzers.dll
+D:\Work\Playground\sonarqube\MMM\MMM.Analyzers\MMM.Analyzers\bin\Debug\netstandard2.0\MMM.Attributes.dll
+D:\Work\Playground\sonarqube\MMM\MMM.Analyzers\MMM.Analyzers\obj\Debug\netstandard2.0\MMM.Analyzers.csproj.AssemblyReference.cache
+D:\Work\Playground\sonarqube\MMM\MMM.Analyzers\MMM.Analyzers\obj\Debug\netstandard2.0\MMM.Analyzers.Resources.resources
+D:\Work\Playground\sonarqube\MMM\MMM.Analyzers\MMM.Analyzers\obj\Debug\netstandard2.0\MMM.Analyzers.csproj.GenerateResource.cache
+D:\Work\Playground\sonarqube\MMM\MMM.Analyzers\MMM.Analyzers\obj\Debug\netstandard2.0\MMM.Analyzers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Playground\sonarqube\MMM\MMM.Analyzers\MMM.Analyzers\obj\Debug\netstandard2.0\MMM.Analyzers.AssemblyInfoInputs.cache
+D:\Work\Playground\sonarqube\MMM\MMM.Analyzers\MMM.Analyzers\obj\Debug\netstandard2.0\MMM.Analyzers.AssemblyInfo.cs
+D:\Work\Playground\sonarqube\MMM\MMM.Analyzers\MMM.Analyzers\obj\Debug\netstandard2.0\MMM.Analyzers.csproj.CoreCompileInputs.cache
+D:\Work\Playground\sonarqube\MMM\MMM.Analyzers\MMM.Analyzers\obj\Debug\netstandard2.0\MMM.Analyzers.csproj.CopyComplete
+D:\Work\Playground\sonarqube\MMM\MMM.Analyzers\MMM.Analyzers\obj\Debug\netstandard2.0\MMM.Analyzers.dll

@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = MMM.Analyzers
+build_property.ProjectDir = D:\Work\iNUPCO\Repos\SonarQubeCustomRules\Backend\MMM\MMM.Analyzers\MMM.Analyzers\
