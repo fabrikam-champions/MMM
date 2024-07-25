@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MMMScanner": {
+      "commandName": "Project",
+      "commandLineArgs": "-s \"D:\\Work\\iNUPCO\\Repos\\INUPCO.CommitteeManagement\\INUPCO.CommitteeManagement.sln\" -d \"D:\\mmm-CommitteeManagement3.json\""
+    }
+  }
+}

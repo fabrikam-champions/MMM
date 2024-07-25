@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "bXv7zKIKVdyr5Mwi5BPvysK/ZPC/x/elMBC++oujbDQctg8noqA4cGy9ItCCx1c2QRgKJINdJIUmIspp/iTsAg==",
+  "dgSpecHash": "2gA5Mix/X89ufLV0+2/b9ZQ2TmY3Q4wHQsHzYn9fuXo3n8IhzKNVhSRhK3Mmv9lRYfSL4oiMLniKdU6oysu2wg==",
   "success": true,
-  "projectFilePath": "D:\\Work\\iNUPCO\\Repos\\SonarQubeCustomRules\\Backend\\MMM\\MMM.Attributes\\MMM.Attributes.csproj",
+  "projectFilePath": "D:\\Work\\FabrikamChampions\\MMM\\MMM.Attributes\\MMM.Attributes.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ahmed\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\ahmed\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\ahmedelbatal\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ahmedelbatal\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
