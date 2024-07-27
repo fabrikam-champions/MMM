@@ -9,17 +9,17 @@
 		<JsonSerializerIsReflectionEnabledByDefault>true</JsonSerializerIsReflectionEnabledByDefault>
 		<PackAsTool>True</PackAsTool>
 		<GenerateRuntimeConfigDevFile>true</GenerateRuntimeConfigDevFile>
-		<version>1.0.1</version>
+		<version>1.0.3</version>
 		<VersionSuffix Condition=" '$(BUILD_NUMBER)' == '' ">pre$([System.DateTime]::Now.ToString("yyyyMMddHHmm"))</VersionSuffix>
-		<title>MMMScanner</title>
+		<title>MMM.Scanner</title>
 		<authors>FabrikamChampions</authors>
-		<description>A dotnet tool the scans mmm files and IStringLocalizer used keys and generates an output file of these keys</description>
-		<tags>MMM;IStringLocalizer;Localization;Generator;Scanner;tool</tags>
+		<description>A dotnet tool the scans produced and consumed messages in a microservice and generates an output file of these messages</description>
+		<tags>MMM;Microservices Messaging Model;Generator;Scanner;tool</tags>
 		<copyright>Copyright ©FabrikamChampions 2024</copyright>
 		<IsPackable>true</IsPackable>
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 		<PackageDescription>A dotnet tool the scans produced and consumed messages in a microservice and generates an output file of these messages</PackageDescription>
-		<RepositoryUrl>https://github.com/fabrikam-champions/MMMScanner</RepositoryUrl>
+		<RepositoryUrl>https://github.com/fabrikam-champions/MMM</RepositoryUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>

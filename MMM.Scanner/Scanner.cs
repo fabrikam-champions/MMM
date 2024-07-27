@@ -66,10 +66,6 @@ namespace MMMScanner
             var attributeType = GetMessageAttributeExactType(semanticModel.GetTypeInfo(attribute).Type);
             var args = GetAttributeArguments(attribute, semanticModel, attributeType);
             string messageName = Convert.ToString(args["messageName"]);
-            if(messageName.Contains("INUPCO_CommitteeManagement_CommitteeCreated"))
-            {
-
-            }
             string messageSchema = new JsonSchemaGenerator().GenerateJsonSchema(args["messageType"] as ITypeSymbol);
             string moduleName = Convert.ToString(args["moduleName"]);
             string messageDescription = Convert.ToString(args["messageDescription"]);

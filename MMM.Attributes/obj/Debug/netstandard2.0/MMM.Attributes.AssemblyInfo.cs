@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MMM.Attributes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.0.0+153776c124adf1e064330162e901cd33692b8598")]
 [assembly: System.Reflection.AssemblyProductAttribute("MMM.Attributes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MMM.Attributes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("2.0.0.0")]

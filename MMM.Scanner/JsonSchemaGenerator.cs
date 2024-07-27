@@ -37,9 +37,23 @@ namespace MMMScanner
             return propertySymbols;
 
         }
+        private string GetSummary(ISymbol type)
+        {
+            var xml = type.GetDocumentationCommentXml();
+            if(string.IsNullOrEmpty(xml))
+            {
+                return null;
+            }
+            return System.Xml.Linq.XDocument.Parse(xml).Descendants("summary")?.FirstOrDefault()?.Value.Trim();
+        }
         private void GenerateClassSchema(ITypeSymbol type, StringBuilder stringBuilder, int level)
         {
             stringBuilder.Append("{");
+            string summary = GetSummary(type);
+            if(!string.IsNullOrEmpty( summary))
+            {
+                stringBuilder.Append($"/*{summary}*/");
+            }
             stringBuilder.AppendLine();
             var properties = GetMembers(type);
 
@@ -47,6 +61,14 @@ namespace MMMScanner
             {
                 var property = properties[i];
                 var propertyType = property.Type;
+                var propertSummary = GetSummary(property);
+                if (!string.IsNullOrEmpty(propertSummary) && propertSummary.Replace(" ","").ToLower()!= property.Name.Replace("_","").ToLower())
+                {
+                    stringBuilder.Append(new string(' ', (level + 1) * 8));
+                    stringBuilder.Append($"/*{propertSummary}*/");
+                    stringBuilder.AppendLine();
+                }
+                
                 stringBuilder.Append(new string(' ', (level + 1) * 8));
                 stringBuilder.Append($"\"{property.Name}\": ");
 
@@ -100,8 +122,9 @@ namespace MMMScanner
 
         private void GenerateEnumSchema(ITypeSymbol type, StringBuilder stringBuilder, int level)
         {
-            stringBuilder.Append('[');
-            var members = type.GetMembers();
+            stringBuilder.Append($"\"{type?.ToDisplayString()}\"");
+            stringBuilder.Append("/*[");
+            var members = type.OriginalDefinition.SpecialType == SpecialType.System_Nullable_T ? (type as INamedTypeSymbol).TypeArguments.FirstOrDefault().GetMembers() : type.GetMembers();
             for (int i = 0; i < members.Length; i++)
             {
                 var member = members[i];
@@ -112,7 +135,7 @@ namespace MMMScanner
                         stringBuilder.Append(", ");
                 }
             }
-            stringBuilder.Append(']');
+            stringBuilder.Append("]*/");
         }
 
         private void GenerateArraySchema(ITypeSymbol type, StringBuilder stringBuilder, int level)
@@ -133,7 +156,8 @@ namespace MMMScanner
         {
             if (type == null)
                 return false;
-            return type.TypeKind == TypeKind.Enum;
+            return type.TypeKind == TypeKind.Enum || 
+                (type.OriginalDefinition.SpecialType == SpecialType.System_Nullable_T && (type as INamedTypeSymbol)?.TypeArguments.FirstOrDefault()?.TypeKind == TypeKind.Enum);
         }
 
         private bool IsArray(ITypeSymbol type)
