@@ -8,6 +8,7 @@ namespace MMMScanner
 {
     internal class JsonSchemaGenerator
     {
+        private const int MaxLevels = 3;
         public string GenerateJsonSchema(ITypeSymbol symbol)
         {
             var stringBuilder = new StringBuilder();
@@ -86,6 +87,11 @@ namespace MMMScanner
 
         private void GeneratePropertySchema(ITypeSymbol type, StringBuilder stringBuilder, int level)
         {
+            if (level > MaxLevels)
+            {
+                stringBuilder.Append(@"""overflow""");
+                return;
+            }
             if (IsDynamic(type))
             {
                 GenerateDynamicSchema(type, stringBuilder, level);
